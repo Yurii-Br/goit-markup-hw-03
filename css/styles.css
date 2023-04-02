@@ -9,6 +9,12 @@
   --primary-bg: #fff;
 }
 /* global-selectors */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
 img {
   display: block;
 }
@@ -300,7 +306,7 @@ body {
   row-gap: 48px;
 }
 .part-of-gall-list {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .name-categ {
   padding: 32px 16px;
