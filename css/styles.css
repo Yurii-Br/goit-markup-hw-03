@@ -65,6 +65,7 @@ body {
   gap: 40px;
 }
 .link-nav {
+  display: block;
   padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -84,6 +85,8 @@ body {
   font-style: normal;
 }
 .link-cont {
+  display: block;
+  padding: 24px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -151,6 +154,9 @@ body {
 }
 .child-list {
   width: calc((100% - 72px) / 4);
+}
+.title-features {
+  visibility: hidden;
 }
 .desc-feature {
   margin-bottom: 8px;
